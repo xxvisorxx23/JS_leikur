@@ -43,11 +43,11 @@ function Animation(){
              shooting.play();// nær is shooting sound effectið
            }
         if (shots.length > 0 || 0 < asteroids.length) {// ef arrayin shots eða asteroids er meira en null updetar hann með for loppu
-         for (let i = 0; i < shots.length; i++) {//updetar postinnin af skotanum
+         for (let i = 0; i < shots.length; i++) {//updetar staðsetningu af skotanum
            shots[i].Update();
            shots[i].Draw();
          }
-          for (let i = 0; i < asteroids.length; i++) {//updetar postinnin af asteroids
+          for (let i = 0; i < asteroids.length; i++) {//updetar staðsetningu af asteroids
            asteroids[i].Update();
            asteroids[i].Draw();
          }

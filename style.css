@@ -1,0 +1,15 @@
+body{
+    background: #000;
+    max-height: 1000px;
+    max-width: 1000px;
+ 
+  }
+#container {
+    max-width: 1000px;
+}
+#gamecanvas {
+    background: #000;
+        border-color:green;
+     border-style: solid;
+  border-width: 5px;
+}
